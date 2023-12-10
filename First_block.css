@@ -1,0 +1,104 @@
+/**Start of first block **/
+.first_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:radial-gradient(#f65229,rgb(249,188,146));
+    border: 3px solid #b2452a;
+    border-radius: 8px;
+    margin:1% 1%;
+    -webkit-transition: all 1s ease-in-out;  
+    -moz-transition: all 1s ease-in-out;  
+    -o-transition: all 1s ease-in-out;  
+    transition: all 1s ease-in-out;
+    -webkit-animation: fadeInFromNone 3s ease-out;
+    -moz-animation: fadeInFromNone 3s ease-out;
+    -o-animation: fadeInFromNone 3s ease-out;
+    animation: fadeInFromNone 3s ease-out;
+}
+
+
+.first_block:hover{
+    background-position:700px;  
+    border: solid #745f5a;
+}
+/**Header **/
+#about_me_header{
+    margin: 0%;
+    padding-top: 1%;
+    text-align: center;
+    background: -webkit-linear-gradient(#a2a2ee,#1717c1);
+    background-clip: padding-box;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-family:Sans-serif;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-animation: fadeInFromNone 0.1s ease-out;
+    -moz-animation: fadeInFromNone 0.1s ease-out;
+    -o-animation: fadeInFromNone 0.1s ease-out;
+    animation: fadeInFromNone 0.1s ease-out;
+    -webkit-transition: all 2s ease-in-out;  
+    -moz-transition: all 2s ease-in-out;  
+    -o-transition: all 2s ease-in-out;  
+    transition: all 2s ease-in-out;
+    
+    
+}
+#about_me_header:hover{
+    background-position: 100px;  
+    background: -webkit-linear-gradient(#1717c1,#a2a2ee);
+    background-clip: padding-box;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor:default;
+}
+/**Image on the right **/
+#Noam_img{
+    width: 95%;
+    height: 95%;
+
+    text-align: center;
+    border: 2px solid #190a0a; 
+
+    border-radius: 8px;
+    margin:2% 2%;
+    margin-top: 20%;
+    -webkit-animation: fadeInFromNone 0.1s ease-in-out;
+    -moz-animation: fadeInFromNone 0.1s ease-in-out;
+    -o-animation: fadeInFromNone 0.1s ease-in-out;
+    animation: fadeInFromNone 0.1s ease-in-out;
+}
+
+/**Text design and university link **/
+#about_me{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: black;
+    padding-right: 1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    -webkit-animation: fadeInFromNone 0.1s ease-out;
+    -moz-animation: fadeInFromNone 0.1s ease-out;
+    -o-animation: fadeInFromNone 0.1s ease-out;
+    animation: fadeInFromNone 0.1s ease-out;
+    cursor:default;
+
+
+}
+#pmf{
+    text-decoration:none;
+    font-size: 21px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: font-size 0.3s ease;
+    -webkit-animation: fadeInFromNone 0.1s ease-out;
+    -moz-animation: fadeInFromNone 0.1s ease-out;
+    -o-animation: fadeInFromNone 0.1s ease-out;
+    animation: fadeInFromNone 0.1s ease-out;
+}
+#pmf:hover{
+    font-size: 24px;
+    cursor: pointer;
+}

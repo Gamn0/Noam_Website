@@ -1,0 +1,78 @@
+/**Imported .css documents **/
+@import url(First_block.css);
+@import url(Second_block.css);
+@import url(Footer.css);
+@import url(background_and_block_colors.css);
+
+/**Standard margins and paddings **/
+html,body{
+    margin: 0;
+    padding: 0;
+}
+head{
+    padding: 0px 0px;
+    margin-top: 0;
+    margin: 0;
+    border: 0;
+}
+/**Body design and color **/
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: larger; color: black;
+    align-items: center;
+    background:linear-gradient(to top,#b2452a,#ffc69b);
+}
+
+/**Keyframes 
+@keyframes background_gradient{
+     0% {background-color:linear-gradient(to top,#b2452a,#ffc69b);}
+     100% {background-color:linear-gradient(to top,#ffc69b,#b2452a);}
+}
+**/
+
+/**Icon **/
+icon{
+    border-radius: 50%;
+    
+}
+
+/**First header welcome **/
+h1{
+    margin: 0%;
+    padding: 3%;
+    text-align: center;
+    background: -webkit-linear-gradient(#c4c4e2,#1616d7);
+    background-clip: padding-box;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+    cursor:default;
+}
+@keyframes mymove {
+    from {top: -600px;}
+    to {top: 0px;}
+  }
+h2{
+    -webkit-animation: fadeInFromNone 3s ease-out;
+    -moz-animation: fadeInFromNone 3s ease-out;
+    -o-animation: fadeInFromNone 3s ease-out;
+    animation: fadeInFromNone 3s ease-out;
+    transition: transform 2s ease;
+}
+h2:hover{
+    background-position: 100px;  
+    background: -webkit-linear-gradient(#4646e0,#a2a2ee);
+    background-clip: padding-box;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor:default;
+
+}

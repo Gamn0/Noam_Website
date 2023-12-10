@@ -1,0 +1,22 @@
+/**Footer block **/
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    background:linear-gradient(#b2452a,#89321c);
+    border-top:1px solid #291109;
+    height: 25px;
+    
+}
+
+/**text**/
+#f1{
+    margin-top: 0.1% ;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    color: #291109;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
